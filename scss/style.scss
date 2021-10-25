@@ -6,16 +6,19 @@ h1 {
    color: white;
 }
 .container-fluid {
-   min-height: 100vh;
    background: url(../img/contact_bg.png) no-repeat center center;
    background-size: cover;
 }
-
-.container-body {
-   max-width: 1200px;
+.wrapper{
+   max-width: 960px;
    margin: 0px auto;
 }
-
+.invalid-feedback{
+   font-family: "Lato", sans-serif;
+   padding-left: 30px;
+   font-weight: 700;
+   font-size: 15px;
+}
 input[type="checkbox"] {
    /* Double-sized Checkboxes */
    -ms-transform: scale(0.6); /* IE */
@@ -27,20 +30,30 @@ input[type="checkbox"] {
 .res-style{
    margin: 0px 3px 0px 0px !important;
 }
+.pointer{
+   cursor: pointer;
+}
 .res-pad{
    padding: 0px;
 }
 .new-pad{
-   font-size: 20px;
+   font-family: "Lato", sans-serif;
+   font-size: 19px;
    padding: 10px 20px 10px 70px;
    border-radius: 25px;
 }
 .new-pad-area{
-   font-size: 20px;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
    border-radius: 25px;
-   padding: 20px 20px 10px 20px;
+   padding: 20px 20px 10px 35px;
 }
-
+.ff-text{
+   font-family: "Protipo-compact", sans-serif;
+   @media screen and (max-width: 576px){
+      font-size: 25px !important;
+   }
+}
 .fs-text{
    font-family: "Protipo-compact", sans-serif;
    font-size: 16px;
@@ -51,7 +64,20 @@ input[type="checkbox"] {
    color: #aaa;
 }
 
-.icon-phone{
-   width: 15px;
-   height: 15px;
+.elem{
+   position: relative;
+}
+
+.icon-phone,.icon-user,.icon-mail-alt{
+   position: absolute;
+   font-size: 18px;
+   top: 17px;
+   left: 33px;
+   color: #aaa;
+}
+.new-style{
+   border-radius: 25px;
+   @media screen and (max-width: 576px){
+      font-size: 23px !important;
+   }
 }
