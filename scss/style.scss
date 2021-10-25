@@ -1,2 +1,57 @@
-@import '_fonts';
-@import '_reset';
+@import "_fonts";
+@import "_reset";
+h1 {
+   font-family: "magistral", sans-serif;
+   font-size: 50px;
+   color: white;
+}
+.container-fluid {
+   min-height: 100vh;
+   background: url(../img/contact_bg.png) no-repeat center center;
+   background-size: cover;
+}
+
+.container-body {
+   max-width: 1200px;
+   margin: 0px auto;
+}
+
+input[type="checkbox"] {
+   /* Double-sized Checkboxes */
+   -ms-transform: scale(0.6); /* IE */
+   -moz-transform: scale(0.6); /* FF */
+   -webkit-transform: scale(0.6); /* Safari and Chrome */
+   -o-transform: scale(0.6); /* Opera */
+   padding: 10px;
+}
+.res-style{
+   margin: 0px 3px 0px 0px !important;
+}
+.res-pad{
+   padding: 0px;
+}
+.new-pad{
+   font-size: 20px;
+   padding: 10px 20px 10px 70px;
+   border-radius: 25px;
+}
+.new-pad-area{
+   font-size: 20px;
+   border-radius: 25px;
+   padding: 20px 20px 10px 20px;
+}
+
+.fs-text{
+   font-family: "Protipo-compact", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.text-color{
+   color: #aaa;
+}
+
+.icon-phone{
+   width: 15px;
+   height: 15px;
+}

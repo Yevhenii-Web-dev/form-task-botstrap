@@ -1,94 +1,93 @@
+@import url("https://use.typekit.net/opa6smn.css");
 /*Reset*/
 html {
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-   padding: 0;
-   margin: 0;
-   border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 *,
 *:before,
 *:after {
-   -webkit-box-sizing: inherit;
-   box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 :focus,
 :active {
-   outline: none;
+  outline: none;
 }
 
 a:focus,
 a:active {
-   outline: none;
+  outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-   display: block;
+  display: block;
 }
 
 html,
 body {
-   font-family: "Times New Roman", sans-serif;
-   color: #333333;
-   height: 100%;
-   width: 100%;
-   font-size: 100%;
-   line-height: 1;
-   font-size: 24px;
-   -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+  font-family: "Times New Roman", sans-serif;
+  color: #333333;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 24px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 input,
 button,
 textarea {
-   font-family: inherit;
+  font-family: inherit;
 }
 
 input::-ms-clear {
-   display: none;
+  display: none;
 }
 
 button {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 button::-moz-focus-inner {
-   padding: 0;
-   border: 0;
+  padding: 0;
+  border: 0;
 }
 
 a,
 a:visited {
-   text-decoration: none;
-   display: inline-block;
-   color: black;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
 }
 
 a:hover {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 ul li {
-   list-style: none;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-   vertical-align: top;
-   max-width: 100%;
-   height: auto;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -97,8 +96,72 @@ h3,
 h4,
 h5,
 h6 {
-   font-size: inherit;
-   font-weight: 400;
+  font-size: inherit;
+  font-weight: 400;
 }
 
 /*--------------------*/
+h1 {
+  font-family: "magistral", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  background: url(../img/contact_bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.container-body {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+input[type="checkbox"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(0.6);
+  /* IE */
+  -moz-transform: scale(0.6);
+  /* FF */
+  -webkit-transform: scale(0.6);
+  /* Safari and Chrome */
+  -o-transform: scale(0.6);
+  /* Opera */
+  padding: 10px;
+}
+
+.res-style {
+  margin: 0px 3px 0px 0px !important;
+}
+
+.res-pad {
+  padding: 0px;
+}
+
+.new-pad {
+  font-size: 20px;
+  padding: 10px 20px 10px 70px;
+  border-radius: 25px;
+}
+
+.new-pad-area {
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 20px 20px 10px 20px;
+}
+
+.fs-text {
+  font-family: "Protipo-compact", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-color {
+  color: #aaa;
+}
+
+.icon-phone {
+  width: 15px;
+  height: 15px;
+}
